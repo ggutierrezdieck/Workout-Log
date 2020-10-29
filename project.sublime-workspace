@@ -1,0 +1,962 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"fonts",
+				"font-size\tproperty"
+			],
+			[
+				"font",
+				"font-family\tproperty"
+			],
+			[
+				"border",
+				"border-bottom\tproperty"
+			],
+			[
+				"SIN",
+				"SiNoNose"
+			],
+			[
+				"ju",
+				"justify-content-end \tBootstrap 4 Class"
+			],
+			[
+				"al",
+				"align-content-end \tBootstrap 4 Class"
+			],
+			[
+				"min",
+				"min-width\tproperty"
+			],
+			[
+				"contai",
+				"container \tBootstrap 4 Class"
+			],
+			[
+				"No",
+				"NoneType\ttype ⟠"
+			],
+			[
+				"med",
+				"medicamento\ttype ⟠"
+			],
+			[
+				"appen",
+				"append"
+			],
+			[
+				"post",
+				"postDict\t⟠"
+			],
+			[
+				"medica",
+				"medicamentoPost\tlist ⟠"
+			],
+			[
+				"get_field",
+				"get_fields(…)\tfunction ⟠"
+			],
+			[
+				"get",
+				"getElementById\t⟠"
+			],
+			[
+				"justi",
+				"justify-content-center \tBootstrap 4 Class"
+			],
+			[
+				"con",
+				"context\tdict ⟠"
+			],
+			[
+				"si",
+				"SiNo\ttuple ⟠"
+			],
+			[
+				"ver",
+				"verbose_name"
+			],
+			[
+				"seg",
+				"seguridadSocialForm\ttype ⟠"
+			],
+			[
+				"self",
+				"align-self-end \tBootstrap 4 Class"
+			],
+			[
+				"LOGIN",
+				"LOGIN_REDIRECT_URL"
+			],
+			[
+				"contri",
+				"contrib"
+			],
+			[
+				"align-self",
+				"align-self-center \tBootstrap 4 Class"
+			],
+			[
+				"user",
+				"UserCreationForm\ttype ⟠"
+			],
+			[
+				"Use",
+				"UserCreationForm\ttype ⟠"
+			],
+			[
+				"seguridad",
+				"seguridadSocial"
+			],
+			[
+				"Ci",
+				"CIGARRO"
+			],
+			[
+				"Si",
+				"SiNo"
+			],
+			[
+				"Ch",
+				"choices"
+			],
+			[
+				"is",
+				"is_ajax\tfunction ⟠"
+			],
+			[
+				"valid",
+				"valid_forms"
+			],
+			[
+				"f",
+				"fcuestionario\tcuestionarioForm ⟠"
+			],
+			[
+				"st",
+				"sticky\tposition"
+			],
+			[
+				"s",
+				"sticky\tposition"
+			],
+			[
+				"float",
+				"form-control-static \tBootstrap 4 Class"
+			],
+			[
+				"col-sm",
+				"col-sm-1 \tBootstrap 4 Class"
+			],
+			[
+				"ce",
+				"text-center \tBootstrap 4 Class"
+			],
+			[
+				"co",
+				"col-8 \tBootstrap 4 Class"
+			],
+			[
+				"cues",
+				"cuestionarioForm\ttype ⟠"
+			],
+			[
+				"cue",
+				"cuestionarioForm\ttype ⟠"
+			],
+			[
+				"pac",
+				"pacienteForm"
+			],
+			[
+				"RE",
+				"RES-PCR"
+			],
+			[
+				"In",
+				"IntegerField\ttype ⟠"
+			],
+			[
+				"va",
+				"validators=…\tkeyword ⟠"
+			],
+			[
+				"col-4",
+				"col-sm-4 \tBootstrap 4 Class"
+			],
+			[
+				"visita",
+				"visita_info_view\tfunction ⟠"
+			],
+			[
+				"cons",
+				"console.log\t⟠"
+			],
+			[
+				"on",
+				"onload = ()\t⟠"
+			],
+			[
+				"na",
+				"NAME"
+			],
+			[
+				"pace",
+				"pacientes\tmodule ⟠"
+			],
+			[
+				"app",
+				"app_list\t⟠"
+			],
+			[
+				"Diario",
+				"DiarioSintomas"
+			],
+			[
+				"Freque",
+				"frequenciaRespiratoria"
+			],
+			[
+				"v",
+				"verbose_name=…\tkeyword ⟠"
+			],
+			[
+				"Ca",
+				"CASCADE(…)\tfunction ⟠"
+			],
+			[
+				"I",
+				"I18N\ttype ⟠"
+			],
+			[
+				"wm",
+				"wm_overrideredirect\tfunction ⟠"
+			],
+			[
+				"wid",
+				"widget"
+			],
+			[
+				"ri",
+				"RIDGE\tstr ⟠"
+			],
+			[
+				"tab",
+				"tabctr\tNotebook ⟠"
+			],
+			[
+				"file",
+				"fileMenu\tMenu ⟠"
+			],
+			[
+				"La",
+				"LabelFrame\ttype ⟠"
+			],
+			[
+				"column",
+				"columnspan"
+			],
+			[
+				"rad",
+				"radVal\tIntVar ⟠"
+			],
+			[
+				"var",
+				"variable"
+			],
+			[
+				"text",
+				"textvariable"
+			],
+			[
+				"config",
+				"configure(…)\tfunction ⟠"
+			],
+			[
+				"sele",
+				"select"
+			],
+			[
+				"add",
+				"addEventListener"
+			],
+			[
+				"ine",
+				"innerHTML"
+			],
+			[
+				"inner",
+				"innerHTML"
+			],
+			[
+				"loca",
+				"localStorage"
+			],
+			[
+				"Ja",
+				"JavaScript"
+			],
+			[
+				"time",
+				"time_now"
+			],
+			[
+				"funciton",
+				"functionName"
+			],
+			[
+				"url",
+				"url_for"
+			],
+			[
+				"li",
+				"li\tTag"
+			],
+			[
+				"results",
+				"results_view"
+			],
+			[
+				"contact",
+				"contact_view"
+			],
+			[
+				"h",
+				"h1\tTag"
+			],
+			[
+				"met",
+				"meta\tTag"
+			],
+			[
+				"HTT",
+				"HttpResponse\ttype ⟠"
+			],
+			[
+				"lef",
+				"left = posleft\t⟠"
+			],
+			[
+				"Ma",
+				"Math.random()\t⟠"
+			],
+			[
+				"bord",
+				"border-right\tproperty"
+			],
+			[
+				"border-r",
+				"border-radius\tproperty"
+			],
+			[
+				"back",
+				"background-color\tproperty"
+			],
+			[
+				"documet",
+				"document.getElementById(\t⟠"
+			],
+			[
+				"ge",
+				"getHours"
+			],
+			[
+				"hello",
+				"Hello World\t⟠"
+			],
+			[
+				"container",
+				"container-fluid \tBootstrap 4 Class"
+			],
+			[
+				"texta",
+				"text-align\tproperty"
+			],
+			[
+				"col-md",
+				"col-md-12 \tBootstrap 4 Class"
+			],
+			[
+				"fil",
+				"filter\tproperty"
+			],
+			[
+				"list-st",
+				"list-style-type\tproperty"
+			],
+			[
+				"text-a",
+				"text-align\tproperty"
+			],
+			[
+				"bac",
+				"background-color\tproperty"
+			],
+			[
+				"widt",
+				"width"
+			],
+			[
+				"fig",
+				"figcaption\tTag"
+			],
+			[
+				"head",
+				"header\tTag"
+			],
+			[
+				"opt",
+				"option\tTag"
+			],
+			[
+				"ta",
+				"table\tTag"
+			],
+			[
+				"o",
+				"ol\tTag"
+			],
+			[
+				"id",
+				"idPaciente\tAutoField ⟠"
+			],
+			[
+				"pacien",
+				"paciente_all_view"
+			],
+			[
+				"Paci",
+				"Paciente\ttype ⟠"
+			],
+			[
+				"form",
+				"form\tPacienteForm ⟠"
+			],
+			[
+				"PO",
+				"POST"
+			],
+			[
+				"requ",
+				"request"
+			],
+			[
+				"paciente",
+				"paciente_rawadd_view"
+			],
+			[
+				"req",
+				"request"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "/*Name this external file gallery.css*/\nbody{\n        margin: 2%;\n        border: 1px solid black;\n        background-color: #b3b3b3;\n}\n#image{\n    line-height:650px;\n        width: 575px;\n    height: 650px;\n        border:5px solid black;\n        margin:0 auto;\n    background-color: #8e68ff;\n    background-image: url('');\n    background-repeat: no-repeat;\n    color:#FFFFFF;\n    text-align: center;\n    background-size: 100%;\n    margin-bottom:25px;\n    font-size: 150%;\n}\n.preview{\n        width:10%;\n        margin-left:17%;\n    border: 10px solid black;\n}\nimg{\n        width:95%;\n}",
+			"file": "/C/Users/Gerardo/Downloads/CSS/assignment-1 2/css/hw1.css",
+			"file_size": 1687,
+			"file_write_time": 132483768703048359,
+			"settings":
+			{
+				"buffer_size": 587,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n\t<meta charset=\"UTF-8\">\n\t<title>Photo Gallery</title>\n\t<link rel=\"stylesheet\" href=\"css/gallery.css\">\n\t<script src = \"js/gallery.js\"></script>\n</head>\n<body>\n\t\n\t<div id = \"image\">\n\t\tHover over an image below to display here.\n\t</div>\n\t\n\t<img class = \"preview\" alt = \"Styling with a Bandana\" src = \"https://s3-us-west-2.amazonaws.com/s.cdpn.io/389177/bacon.jpg\" onmouseover = \"upDate(this)\" onmouseout = \"unDo()\">\n\t\n\t<img class = \"preview\" alt = \"With My Boy\" src = \"https://s3-us-west-2.amazonaws.com/s.cdpn.io/389177/bacon2.JPG\" onmouseover = \"upDate(this)\" onmouseout = \"unDo()\">\n\t\n\t<img class = \"preview\" src = \"https://s3-us-west-2.amazonaws.com/s.cdpn.io/389177/bacon3.jpg\" alt = \"Young Puppy\" onmouseover = \"upDate(this)\" onmouseout = \"unDo()\">\n\n</body>\n</html>",
+			"file": "/C/Users/Gerardo/Downloads/CSS/assignment-1 2/teams.html",
+			"file_size": 2789,
+			"file_write_time": 132483163505692046,
+			"settings":
+			{
+				"buffer_size": 806,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Users/Gerardo/Downloads/CSS/assignment-1 2/index.html",
+			"settings":
+			{
+				"buffer_size": 2413,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Users/Gerardo/Downloads/CSS/assignment-1 2/history.html",
+			"settings":
+			{
+				"buffer_size": 2302,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"reind",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: git",
+				"Package Control: Install Package"
+			],
+			[
+				"git",
+				"Set Syntax: Git Commit"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"package controll ",
+				"Package Control: Install Package"
+			],
+			[
+				"install package ",
+				"Package Control: Install Local Dependency"
+			],
+			[
+				"install package controll",
+				"Package Control: Install Local Dependency"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				" install package ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 375.0,
+		"history":
+		[
+			"List Packages",
+			"list packages"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/Gerardo/Personal/Projects/Python/Workout Log"
+	],
+	"file_history":
+	[
+		"/C/Users/Gerardo/Downloads/CSS/assignment-1 2/css/hw2.css",
+		"/C/Users/Gerardo/Downloads/CSS/assignment-1 2/css/hw1.css",
+		"/C/Users/Gerardo/Personal/Projects/Python/SARS-COV-OBS-MX-03/src/pacientes/static/main.js",
+		"/C/Users/Gerardo/Personal/Projects/Python/SARS-COV-OBS-MX-03/src/pacientes/views.py",
+		"/C/Users/Gerardo/Personal/Projects/Python/SARS-COV-OBS-MX-03/src/pacientes/static/styles.css",
+		"/C/Users/Gerardo/Personal/Projects/Python/SARS-COV-OBS-MX-03/src/pacientes/templates/questionnaire.html",
+		"/C/Users/Gerardo/Personal/Projects/Python/SARS-COV-OBS-MX-03/src/pacientes/templates/index.html",
+		"/C/Users/Gerardo/Personal/Projects/Python/SARS-COV-OBS-MX-03/src/pacientes/templates/pacienteList.html",
+		"/C/Users/Gerardo/Personal/Projects/Python/SARS-COV-OBS-MX-03/src/pacientes/templates/navBar.html",
+		"/C/Users/Gerardo/Personal/Projects/Python/SARS-COV-OBS-MX-03/src/pacientes/models.py",
+		"/C/Users/Gerardo/Personal/Projects/Python/SARS-COV-OBS-MX-03/src/pacientes/templates/base.html",
+		"/C/Users/Gerardo/Personal/Projects/Python/SARS-COV-OBS-MX-03/src/pacientes/forms.py",
+		"/C/Users/Gerardo/Personal/Projects/Python/SARS-COV-OBS-MX-03/src/pacientes/admin.py",
+		"/C/Users/Gerardo/Personal/Projects/Python/SARS-COV-OBS-MX-03/src/pacientes/templates/newPatient.html",
+		"/C/Users/Gerardo/Personal/Projects/Python/SARS-COV-OBS-MX-03/src/survey/settings.py",
+		"/C/Users/Gerardo/Personal/Projects/Python/SARS-COV-OBS-MX-03/src/userauth/templates/registration/login.html",
+		"/C/Users/Gerardo/Personal/Projects/Python/SARS-COV-OBS-MX-03/src/userauth/templates/registration/logout.html",
+		"/C/Users/Gerardo/Personal/Projects/Python/SARS-COV-OBS-MX-03/src/userauth/forms.py",
+		"/C/Users/Gerardo/Personal/Projects/Python/SARS-COV-OBS-MX-03/src/userauth/templates/session.html",
+		"/C/Users/Gerardo/Personal/Projects/Python/SARS-COV-OBS-MX-03/src/userauth/views.py",
+		"/C/Users/Gerardo/Personal/Projects/Python/SARS-COV-OBS-MX-03/src/survey/urls.py",
+		"/C/Users/Gerardo/Personal/Projects/Python/SARS-COV-OBS-MX-03/src/userauth/models.py",
+		"/C/Users/Gerardo/Personal/Projects/Python/SARS-COV-OBS-MX-03/src/userauth/urls.py",
+		"/C/Users/Gerardo/Personal/Projects/Python/SARS-COV-OBS-MX-03/src/auth/views.py",
+		"/C/Users/Gerardo/Personal/Projects/Python/SARS-COV-OBS-MX-03/src/auth/templates/session.html",
+		"/C/Users/Gerardo/Personal/Projects/Python/CrossHero/reservar.py",
+		"/C/Users/Gerardo/Personal/Projects/Python/SARS-COV-OBS-MX-03/src/.gitlab-ci.yml",
+		"/C/Users/Gerardo/Personal/Projects/Python/SARS-COV-OBS-MX-03/src/Procfile",
+		"/C/Users/Gerardo/Downloads/finalProject.html",
+		"/C/Users/Gerardo/Personal/Projects/Python/SARS-COV-OBS-MX-03/src/pacientes/urls.py",
+		"/C/Users/Gerardo/Personal/Projects/Python/CRF/src/crf/urls.py",
+		"/C/Users/Gerardo/Personal/Projects/Python/CRF/src/pacientes/urls.py",
+		"/C/Users/Gerardo/Personal/Projects/Front End/Spinning top/css/styles.css",
+		"/C/Users/Gerardo/Personal/Projects/Front End/Spinning top/index.html",
+		"/C/Users/Gerardo/Personal/Projects/Python/CRF/src/pacientes/static/main.js",
+		"/C/Users/Gerardo/Personal/Projects/Python/CRF/src/pacientes/views.py",
+		"/C/Users/Gerardo/Personal/Projects/Python/CRF/src/pacientes/templates/modelmenu.html",
+		"/C/Users/Gerardo/Personal/Projects/Python/CRF/src/pacientes/templates/pacientes/pacientes.html",
+		"/C/Users/Gerardo/Personal/Projects/Python/CRF/src/pacientes/templates/pacientes/index.html",
+		"/C/Users/Gerardo/Personal/Projects/Python/CRF/src/pacientes/models.py",
+		"/C/Users/Gerardo/Personal/Projects/Python/CRF/src/templates/base.html",
+		"/C/Users/Gerardo/Personal/Projects/Python/CRF/src/pacientes/templatetags/pacientes_extras.py",
+		"/C/Users/Gerardo/Personal/Projects/Python/CRF/src/pacientes/templates/pacientes/infopaciente.html",
+		"/C/Users/Gerardo/Personal/Projects/Python/CRF/src/pacientes/templates/visitas/visitainfo.html",
+		"/C/Users/Gerardo/Personal/Projects/Python/CRF/src/templates/navmenu.html",
+		"/C/Users/Gerardo/.virtualenvs/CRF-lgasf5Z9/Lib/site-packages/django/contrib/admin/sites.py",
+		"/C/Users/Gerardo/.virtualenvs/CRF-lgasf5Z9/Lib/site-packages/django/contrib/admin/templates/admin/index.html",
+		"/C/Users/Gerardo/.virtualenvs/CRF-lgasf5Z9/Lib/site-packages/django/contrib/admin/views/main.py",
+		"/C/Users/Gerardo/Personal/Projects/Python/CRF/src/pacientes/templates/visitas/visitas.html",
+		"/C/Users/Gerardo/Personal/Projects/Python/CRF/src/pacientes/admin.py",
+		"/C/Users/Gerardo/Personal/Projects/Python/CRF/src/pacientes/apps.py",
+		"/C/Users/Gerardo/Personal/Projects/Python/CRF/src/crf/settings.py",
+		"/C/Users/Gerardo/Personal/Projects/Python/CRF/src/pacientes/tests.py",
+		"/C/Users/Gerardo/Personal/Projects/Python/CRF/src/pacientes/static/styles.css",
+		"/C/Users/Gerardo/Personal/Projects/Python/CRF/src/pages/urls.py",
+		"/C/Users/Gerardo/Personal/Projects/Python/CRF/src/pages/views.py",
+		"/C/Users/Gerardo/Personal/Projects/Python/CRF/CRF Notes.txt",
+		"/C/Users/Gerardo/Personal/Projects/Python/CRF/src/pacientes/templates/pacientes/navbar.html",
+		"/C/Users/Gerardo/Personal/Cursos/Python Django Web Framework - Full Course for Beginners/src/templates/base.html",
+		"/C/Users/Gerardo/Personal/Projects/Python/CRF/src/pacientes/templates/index.html",
+		"/C/Users/Gerardo/Personal/Cursos/Python Django Web Framework - Full Course for Beginners/src/templates/home.html",
+		"/C/Users/Gerardo/Personal/Cursos/Python Django Web Framework - Full Course for Beginners/src/templates/navbar.html",
+		"/C/Users/Gerardo/Personal/Cursos/Python Django Web Framework - Full Course for Beginners/src/paciente/templates/paciente/all.html",
+		"/C/Users/Gerardo/Personal/Cursos/Python Django Web Framework - Full Course for Beginners/src/paciente/templates/paciente/detail.html",
+		"/C/Users/Gerardo/Personal/Cursos/Python Django Web Framework - Full Course for Beginners/src/paciente/templates/paciente/paciente_add.html",
+		"/C/Users/Gerardo/Personal/Cursos/Python Django Web Framework - Full Course for Beginners/src/paciente/templates/paciente/delete.html",
+		"/C/Users/Gerardo/Personal/Projects/Python/CRF/src/pacientes/templates/navbar.html",
+		"/C/Users/Gerardo/Personal/Cursos/Python Django Web Framework - Full Course for Beginners/src/paciente/views.py",
+		"/C/Users/Gerardo/Personal/Projects/Python/CRF/src/base.html",
+		"/C/Users/Gerardo/Personal/Cursos/Python Django Web Framework - Full Course for Beginners/src/pages/views.py",
+		"/C/Users/Gerardo/Personal/Projects/Python/CRF/src/pages/admin.py",
+		"/C/Users/Gerardo/Personal/Projects/Python/CRF/src/manage.py",
+		"/C/Users/Gerardo/Personal/Projects/Python/CRF/src/crf/wsgi.py",
+		"/C/Users/Gerardo/Personal/Projects/Python/CRF/src/crf/asgi.py",
+		"/C/Users/Gerardo/Personal/Projects/Python/CRF/src/Pacientes/admin.py",
+		"/C/Users/Gerardo/Personal/Projects/Python/CRF/src/Pacientes/models.py",
+		"/C/Users/Gerardo/Personal/Projects/Python/CRF/src/CRF/settings.py",
+		"/C/Users/Gerardo/Personal/Projects/Python/CRF/src/db.sqlite3",
+		"/C/Users/Gerardo/Personal/Cursos/Python Django Web Framework - Full Course for Beginners/src/paciente/models.py",
+		"/C/Users/Gerardo/Personal/Cursos/_Notes/Tkinter/Resources.py",
+		"/C/Users/Gerardo/Personal/Cursos/_Notes/Tkinter/Tkinter.py",
+		"/C/Users/Gerardo/Personal/Cursos/_Notes/Tkinter.py",
+		"/C/Users/Gerardo/Personal/Projects/Python/CrossHero/run.bat",
+		"/C/Users/Gerardo/Personal/Cursos/_Notes/Django/Django.txt",
+		"/C/Users/Gerardo/Personal/Cursos/_Notes/HTML.html",
+		"/C/Users/Gerardo/Personal/Cursos/_Notes/JavaScript.txt",
+		"/C/Users/Gerardo/Personal/Cursos/_Notes/Flask/templates/flask.html",
+		"/C/Users/Gerardo/Personal/Cursos/_Notes/CSS.css",
+		"/C/Users/Gerardo/Personal/Cursos/_Notes/Flask/Flask.txt",
+		"/C/Users/Gerardo/Personal/Projects/Python/CRF/Pipfile.lock",
+		"/C/Users/Gerardo/Personal/Projects/Python/CRF/Pipfile",
+		"/C/Users/Gerardo/Personal/Projects/Python/CRF/CRF Notes",
+		"/C/Users/Gerardo/AppData/Roaming/Sublime Text 3/Packages/Djaneiro/Settings/HTML (Django).sublime-settings",
+		"/C/Users/Gerardo/AppData/Roaming/Sublime Text 3/Packages/User/HTML (Django).sublime-settings",
+		"/C/Users/Gerardo/AppData/Roaming/Sublime Text 3/Packages/Djaneiro/Settings/Python (Django).sublime-settings",
+		"/C/Users/Gerardo/Personal/Projects/_Courses/Python/Full stack web development and AI with Python (Django)/Django site/src/template/index.html",
+		"/C/Users/Gerardo/Personal/Projects/_Courses/Python/Full stack web development and AI with Python (Django)/Django site/src/template/formResult.html",
+		"/C/Users/Gerardo/Personal/Projects/_Courses/Python/Full stack web development and AI with Python (Django)/Django site/src/modules/validation.py",
+		"/C/Users/Gerardo/Personal/Projects/_Courses/Python/Full stack web development and AI with Python (Django)/Django site/src/pages/views.py",
+		"/C/Users/Gerardo/Personal/Projects/_Courses/Python/Full stack web development and AI with Python (Django)/Django site/src/website/urls.py",
+		"/C/Users/Gerardo/Personal/Projects/_Courses/Python/Full stack web development and AI with Python (Django)/Django site/src/template/contact.html",
+		"/C/Users/Gerardo/Personal/Projects/_Courses/Python/Full stack web development and AI with Python (Django)/Django site/src/template/base.html",
+		"/C/Users/Gerardo/Personal/Projects/_Courses/Python/Full stack web development and AI with Python (Django)/Django site/src/static/stylesheet.css",
+		"/C/Users/Gerardo/Personal/Projects/_Courses/Python/Full stack web development and AI with Python (Django)/Django site/src/website/settings.py",
+		"/C/Users/Gerardo/Personal/Projects/_Courses/Python/Full stack web development and AI with Python (Django)/Django site/src/static/reset.css",
+		"/C/Users/Gerardo/Personal/Cursos/_Notes/CSSREset.css",
+		"/C/Users/Gerardo/Personal/Projects/_Courses/Python/Full stack web development and AI with Python (Django)/Django site/src/Pages",
+		"/C/Users/Gerardo/Personal/Projects/_Courses/Python/Full stack web development and AI with Python (Django)/CRF/src/crf/urls.py",
+		"/C/Users/Gerardo/Personal/Projects/_Courses/Python/Full stack web development and AI with Python (Django)/CRF/src/templates/index.html",
+		"/C/Users/Gerardo/Personal/Projects/_Courses/Python/Full stack web development and AI with Python (Django)/CRF/src/views/views.py",
+		"/C/Users/Gerardo/Personal/Projects/_Courses/Python/Full stack web development and AI with Python (Django)/CRF/src/crf/settings.py",
+		"/C/Users/Gerardo/Personal/Projects/_Courses/Python/Full stack web development and AI with Python (Django)/BootstrapTemplate.html",
+		"/C/Users/Gerardo/Personal/Projects/_Courses/Python/Full stack web development and AI with Python (Django)/CRF/src/views",
+		"/C/Users/Gerardo/Personal/Projects/_Courses/Python/Full stack web development and AI with Python (Django)/CRF/src/crf/views.py",
+		"/C/Users/Gerardo/Personal/Cursos/_Notes/Django.txt",
+		"/C/Users/Gerardo/Personal/Cursos/_Notes/Git.txt",
+		"/C/Users/Gerardo/Personal/Projects/_Courses/Python/Full stack web development and AI with Python (Django)/CRF/src/manage.py",
+		"/C/Users/Gerardo/Personal/Projects/_Courses/Python/Full stack web development and AI with Python (Django)/CRF/src/CRF/settings.py",
+		"/C/Users/Gerardo/Personal/Cursos/Python Django Web Framework - Full Course for Beginners/src/manage.py",
+		"/C/Users/Gerardo/Personal/Cursos/Python Django Web Framework - Full Course for Beginners/src/silverbullet/settings.py",
+		"/C/Users/Gerardo/Personal/Projects/_Courses/Python/Full stack web development and AI with Python (Django)/Reaction time/reaction.html",
+		"/C/Users/Gerardo/Personal/Projects/_Courses/Python/Full stack web development and AI with Python (Django)/Reaction time/reaction.css",
+		"/C/Users/Gerardo/Personal/Projects/_Courses/Python/Full stack web development and AI with Python (Django)/Reaction time/reaction.js",
+		"/C/Users/Gerardo/Personal/Projects/_Courses/Python/Full stack web development and AI with Python (Django)/index.html",
+		"/C/Users/Gerardo/Personal/Projects/_Courses/Python/Full stack web development and AI with Python (Django)/styles.css",
+		"/C/Users/Gerardo/Personal/Projects/_Courses/Python/Full stack web development and AI with Python (Django)/addToHTML.js",
+		"/C/Users/Gerardo/Personal/Cursos/_Notes/Python.txt",
+		"/C/Users/Gerardo/Personal/Cursos/_Notes/Sublime.txt"
+	],
+	"find":
+	{
+		"height": 22.0
+	},
+	"find_in_files":
+	{
+		"height": 104.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"border",
+			"2em",
+			":;",
+			"2em"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/C/Users/Gerardo/Downloads/CSS/assignment-1 2/css/hw1.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 587,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								587,
+								587
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Djaneiro/Syntaxes/CSS (Django).tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 364.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/C/Users/Gerardo/Downloads/CSS/assignment-1 2/teams.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 806,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								806
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Djaneiro/Syntaxes/HTML (Django).tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/C/Users/Gerardo/Downloads/CSS/assignment-1 2/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2413,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								146,
+								146
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Djaneiro/Syntaxes/HTML (Django).tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/C/Users/Gerardo/Downloads/CSS/assignment-1 2/history.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2302,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								144,
+								144
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Djaneiro/Syntaxes/HTML (Django).tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 63.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 22.0
+	},
+	"input":
+	{
+		"height": 43.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SublimeLinter":
+	{
+		"height": 0.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "project.sublime-project",
+	"replace":
+	{
+		"height": 40.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 156.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
