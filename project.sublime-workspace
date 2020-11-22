@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"m",
+				"max_length"
+			],
+			[
 				"fonts",
 				"font-size\tproperty"
 			],
@@ -456,45 +460,38 @@
 	"buffers":
 	[
 		{
-			"contents": "/*Name this external file gallery.css*/\nbody{\n        margin: 2%;\n        border: 1px solid black;\n        background-color: #b3b3b3;\n}\n#image{\n    line-height:650px;\n        width: 575px;\n    height: 650px;\n        border:5px solid black;\n        margin:0 auto;\n    background-color: #8e68ff;\n    background-image: url('');\n    background-repeat: no-repeat;\n    color:#FFFFFF;\n    text-align: center;\n    background-size: 100%;\n    margin-bottom:25px;\n    font-size: 150%;\n}\n.preview{\n        width:10%;\n        margin-left:17%;\n    border: 10px solid black;\n}\nimg{\n        width:95%;\n}",
-			"file": "/C/Users/Gerardo/Downloads/CSS/assignment-1 2/css/hw1.css",
-			"file_size": 1687,
-			"file_write_time": 132483768703048359,
+			"file": "src/log/settings.py",
 			"settings":
 			{
-				"buffer_size": 587,
+				"buffer_size": 3078,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"contents": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n\t<meta charset=\"UTF-8\">\n\t<title>Photo Gallery</title>\n\t<link rel=\"stylesheet\" href=\"css/gallery.css\">\n\t<script src = \"js/gallery.js\"></script>\n</head>\n<body>\n\t\n\t<div id = \"image\">\n\t\tHover over an image below to display here.\n\t</div>\n\t\n\t<img class = \"preview\" alt = \"Styling with a Bandana\" src = \"https://s3-us-west-2.amazonaws.com/s.cdpn.io/389177/bacon.jpg\" onmouseover = \"upDate(this)\" onmouseout = \"unDo()\">\n\t\n\t<img class = \"preview\" alt = \"With My Boy\" src = \"https://s3-us-west-2.amazonaws.com/s.cdpn.io/389177/bacon2.JPG\" onmouseover = \"upDate(this)\" onmouseout = \"unDo()\">\n\t\n\t<img class = \"preview\" src = \"https://s3-us-west-2.amazonaws.com/s.cdpn.io/389177/bacon3.jpg\" alt = \"Young Puppy\" onmouseover = \"upDate(this)\" onmouseout = \"unDo()\">\n\n</body>\n</html>",
-			"file": "/C/Users/Gerardo/Downloads/CSS/assignment-1 2/teams.html",
-			"file_size": 2789,
-			"file_write_time": 132483163505692046,
+			"file": "src/workout/urls.py",
 			"settings":
 			{
-				"buffer_size": 806,
+				"buffer_size": 113,
 				"encoding": "UTF-8",
-				"line_ending": "Unix"
+				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "/C/Users/Gerardo/Downloads/CSS/assignment-1 2/index.html",
+			"file": "src/workout/views.py",
 			"settings":
 			{
-				"buffer_size": 2413,
+				"buffer_size": 169,
 				"encoding": "UTF-8",
-				"line_ending": "Unix"
+				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "/C/Users/Gerardo/Downloads/CSS/assignment-1 2/history.html",
+			"file": "/C/Users/Gerardo/Personal/Projects/Python/SARS-COV-OBS-MX-03/src/pacientes/apps.py",
 			"settings":
 			{
-				"buffer_size": 2302,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
+				"buffer_size": 93,
+				"line_ending": "Windows"
 			}
 		}
 	],
@@ -580,31 +577,45 @@
 	},
 	"expanded_folders":
 	[
-		"/C/Users/Gerardo/Personal/Projects/Python/Workout Log"
+		"/C/Users/Gerardo/Personal/Projects/Python/Workout Log",
+		"/C/Users/Gerardo/Personal/Projects/Python/Workout Log/src",
+		"/C/Users/Gerardo/Personal/Projects/Python/Workout Log/src/log",
+		"/C/Users/Gerardo/Personal/Projects/Python/Workout Log/src/workout"
 	],
 	"file_history":
 	[
-		"/C/Users/Gerardo/Downloads/CSS/assignment-1 2/css/hw2.css",
-		"/C/Users/Gerardo/Downloads/CSS/assignment-1 2/css/hw1.css",
-		"/C/Users/Gerardo/Personal/Projects/Python/SARS-COV-OBS-MX-03/src/pacientes/static/main.js",
+		"/C/Users/Gerardo/Personal/Projects/Python/Workout Log/workout/admin.py",
+		"/C/Users/Gerardo/Personal/Projects/Python/Workout Log/workout/models.py",
 		"/C/Users/Gerardo/Personal/Projects/Python/SARS-COV-OBS-MX-03/src/pacientes/views.py",
+		"/C/Users/Gerardo/Personal/Projects/Python/SARS-COV-OBS-MX-03/src/survey/__init__.py",
+		"/C/Users/Gerardo/Personal/Projects/Python/SARS-COV-OBS-MX-03/src/pacientes/__init__.py",
+		"/C/Users/Gerardo/Personal/Projects/Python/SARS-COV-OBS-MX-03/src/pacientes/models.py",
+		"/C/Users/Gerardo/Personal/Projects/Python/SARS-COV-OBS-MX-03/src/survey/urls.py",
+		"/C/Users/Gerardo/Personal/Projects/Python/SARS-COV-OBS-MX-03/src/survey/settings.py",
+		"/C/Users/Gerardo/Personal/Projects/Python/SARS-COV-OBS-MX-03/src/pacientes/admin.py",
+		"/C/Users/Gerardo/Personal/Projects/Python/Workout Log/src/log/urls.py",
+		"/C/Users/Gerardo/Downloads/CSS/assignment-1 2/history.html",
+		"/C/Users/Gerardo/Personal/Projects/Python/Workout Log/src/log/settings.py",
+		"/C/Users/Gerardo/Downloads/CSS/assignment-1 2/index.html",
+		"/C/Users/Gerardo/Downloads/CSS/assignment-1 2/css/hw1.css",
+		"/C/Users/Gerardo/Downloads/CSS/assignment-1 2/teams.html",
+		"/C/Users/Gerardo/Downloads/CSS/JS/gallery.js",
+		"/C/Users/Gerardo/Downloads/CSS/JS/shippingBilling.js",
+		"/C/Users/Gerardo/Downloads/CSS/assignment-1 2/css/hw2.css",
+		"/C/Users/Gerardo/Personal/Projects/Python/SARS-COV-OBS-MX-03/src/pacientes/static/main.js",
 		"/C/Users/Gerardo/Personal/Projects/Python/SARS-COV-OBS-MX-03/src/pacientes/static/styles.css",
 		"/C/Users/Gerardo/Personal/Projects/Python/SARS-COV-OBS-MX-03/src/pacientes/templates/questionnaire.html",
 		"/C/Users/Gerardo/Personal/Projects/Python/SARS-COV-OBS-MX-03/src/pacientes/templates/index.html",
 		"/C/Users/Gerardo/Personal/Projects/Python/SARS-COV-OBS-MX-03/src/pacientes/templates/pacienteList.html",
 		"/C/Users/Gerardo/Personal/Projects/Python/SARS-COV-OBS-MX-03/src/pacientes/templates/navBar.html",
-		"/C/Users/Gerardo/Personal/Projects/Python/SARS-COV-OBS-MX-03/src/pacientes/models.py",
 		"/C/Users/Gerardo/Personal/Projects/Python/SARS-COV-OBS-MX-03/src/pacientes/templates/base.html",
 		"/C/Users/Gerardo/Personal/Projects/Python/SARS-COV-OBS-MX-03/src/pacientes/forms.py",
-		"/C/Users/Gerardo/Personal/Projects/Python/SARS-COV-OBS-MX-03/src/pacientes/admin.py",
 		"/C/Users/Gerardo/Personal/Projects/Python/SARS-COV-OBS-MX-03/src/pacientes/templates/newPatient.html",
-		"/C/Users/Gerardo/Personal/Projects/Python/SARS-COV-OBS-MX-03/src/survey/settings.py",
 		"/C/Users/Gerardo/Personal/Projects/Python/SARS-COV-OBS-MX-03/src/userauth/templates/registration/login.html",
 		"/C/Users/Gerardo/Personal/Projects/Python/SARS-COV-OBS-MX-03/src/userauth/templates/registration/logout.html",
 		"/C/Users/Gerardo/Personal/Projects/Python/SARS-COV-OBS-MX-03/src/userauth/forms.py",
 		"/C/Users/Gerardo/Personal/Projects/Python/SARS-COV-OBS-MX-03/src/userauth/templates/session.html",
 		"/C/Users/Gerardo/Personal/Projects/Python/SARS-COV-OBS-MX-03/src/userauth/views.py",
-		"/C/Users/Gerardo/Personal/Projects/Python/SARS-COV-OBS-MX-03/src/survey/urls.py",
 		"/C/Users/Gerardo/Personal/Projects/Python/SARS-COV-OBS-MX-03/src/userauth/models.py",
 		"/C/Users/Gerardo/Personal/Projects/Python/SARS-COV-OBS-MX-03/src/userauth/urls.py",
 		"/C/Users/Gerardo/Personal/Projects/Python/SARS-COV-OBS-MX-03/src/auth/views.py",
@@ -700,22 +711,11 @@
 		"/C/Users/Gerardo/Personal/Projects/_Courses/Python/Full stack web development and AI with Python (Django)/CRF/src/crf/views.py",
 		"/C/Users/Gerardo/Personal/Cursos/_Notes/Django.txt",
 		"/C/Users/Gerardo/Personal/Cursos/_Notes/Git.txt",
-		"/C/Users/Gerardo/Personal/Projects/_Courses/Python/Full stack web development and AI with Python (Django)/CRF/src/manage.py",
-		"/C/Users/Gerardo/Personal/Projects/_Courses/Python/Full stack web development and AI with Python (Django)/CRF/src/CRF/settings.py",
-		"/C/Users/Gerardo/Personal/Cursos/Python Django Web Framework - Full Course for Beginners/src/manage.py",
-		"/C/Users/Gerardo/Personal/Cursos/Python Django Web Framework - Full Course for Beginners/src/silverbullet/settings.py",
-		"/C/Users/Gerardo/Personal/Projects/_Courses/Python/Full stack web development and AI with Python (Django)/Reaction time/reaction.html",
-		"/C/Users/Gerardo/Personal/Projects/_Courses/Python/Full stack web development and AI with Python (Django)/Reaction time/reaction.css",
-		"/C/Users/Gerardo/Personal/Projects/_Courses/Python/Full stack web development and AI with Python (Django)/Reaction time/reaction.js",
-		"/C/Users/Gerardo/Personal/Projects/_Courses/Python/Full stack web development and AI with Python (Django)/index.html",
-		"/C/Users/Gerardo/Personal/Projects/_Courses/Python/Full stack web development and AI with Python (Django)/styles.css",
-		"/C/Users/Gerardo/Personal/Projects/_Courses/Python/Full stack web development and AI with Python (Django)/addToHTML.js",
-		"/C/Users/Gerardo/Personal/Cursos/_Notes/Python.txt",
-		"/C/Users/Gerardo/Personal/Cursos/_Notes/Sublime.txt"
+		"/C/Users/Gerardo/Personal/Projects/_Courses/Python/Full stack web development and AI with Python (Django)/CRF/src/manage.py"
 	],
 	"find":
 	{
-		"height": 22.0
+		"height": 39.0
 	},
 	"find_in_files":
 	{
@@ -729,6 +729,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"os",
 			"border",
 			"2em",
 			":;",
@@ -750,60 +751,59 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "/C/Users/Gerardo/Downloads/CSS/assignment-1 2/css/hw1.css",
+					"file": "src/log/settings.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 587,
+						"buffer_size": 3078,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								587,
-								587
+								303,
+								303
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Djaneiro/Syntaxes/CSS (Django).tmLanguage",
+							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 364.0,
+						"translation.y": 13.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "/C/Users/Gerardo/Downloads/CSS/assignment-1 2/teams.html",
+					"file": "src/workout/urls.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 806,
+						"buffer_size": 113,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								806
+								35,
+								35
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Djaneiro/Syntaxes/HTML (Django).tmLanguage",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -814,57 +814,55 @@
 				},
 				{
 					"buffer": 2,
-					"file": "/C/Users/Gerardo/Downloads/CSS/assignment-1 2/index.html",
+					"file": "src/workout/views.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2413,
+						"buffer_size": 169,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								146,
-								146
+								101,
+								101
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Djaneiro/Syntaxes/HTML (Django).tmLanguage",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
 					"buffer": 3,
-					"file": "/C/Users/Gerardo/Downloads/CSS/assignment-1 2/history.html",
+					"file": "/C/Users/Gerardo/Personal/Projects/Python/SARS-COV-OBS-MX-03/src/pacientes/apps.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2302,
+						"buffer_size": 93,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								144,
-								144
+								93,
+								36
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Djaneiro/Syntaxes/HTML (Django).tmLanguage",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 63.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 3,
@@ -875,7 +873,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 22.0
+		"height": 23.0
 	},
 	"input":
 	{
@@ -916,7 +914,7 @@
 	"project": "project.sublime-project",
 	"replace":
 	{
-		"height": 40.0
+		"height": 42.0
 	},
 	"save_all_on_build": true,
 	"select_file":
