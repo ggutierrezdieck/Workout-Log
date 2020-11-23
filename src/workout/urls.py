@@ -1,6 +1,11 @@
-from django.urls import path
-from .views import mainView
+from django.urls import path, include
+from rest_framework import routers
+from .views import WorkoutViewSet
+
+
+router = routers.DefaultRouter()
+router.register('workout', WorkoutViewSet)
 
 urlpatterns = [
-    path('', mainView, name='home'),
-]
+    path('', include(router.urls)),
+    ]

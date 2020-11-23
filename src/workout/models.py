@@ -1,22 +1,23 @@
 from django.db import models
 from django.core.validators import MaxValueValidator, MinValueValidator
+from django.contrib.auth.models import User
 
 # Create your models here.
 
 
-class user(models.Model):
-    GENDER = (
-            ('M', 'MALE'),
-            ('F', 'FEMALE'),
-        )
+# class user(models.Model):
+#     GENDER = (
+#             ('M', 'MALE'),
+#             ('F', 'FEMALE'),
+#         )
 
-    email = models.EmailField()
-    dob = models.DateField()
-    gender = models.CharField(max_length=10, choices=GENDER)
+#     email = models.EmailField()
+#     dob = models.DateField()
+#     gender = models.CharField(max_length=10, choices=GENDER)
 
 
 class workout(models.Model):
-    user = models.ForeignKey(user, on_delete=models.CASCADE,
+    user = models.ForeignKey(User, on_delete=models.CASCADE,
                              related_name='workouts')
     workoutDate = models.DateField()
 
@@ -32,7 +33,7 @@ class excercise(models.Model):
 
 
 class personalRecord(models.Model):
-    user = models.ForeignKey(user, on_delete=models.CASCADE,
+    user = models.ForeignKey(User, on_delete=models.CASCADE,
                              related_name='usersPRs')
     excercise = models.ForeignKey(workout, on_delete=models.CASCADE,
                                   related_name='PR')
