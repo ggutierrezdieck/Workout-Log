@@ -22,9 +22,9 @@ class workout(models.Model):
     workoutDate = models.DateField()
 
 
-class excercise(models.Model):
+class exercise(models.Model):
     workout = models.ForeignKey(workout, on_delete=models.CASCADE,
-                                related_name='excecises')
+                                related_name='execises')
     excerciseName = models.CharField(max_length=250)
     sets = models.IntegerField(blank=True)
     reps = models.IntegerField(blank=True)

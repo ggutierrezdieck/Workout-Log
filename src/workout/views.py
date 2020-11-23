@@ -1,11 +1,18 @@
-from rest_framework import viewsets, status
+from rest_framework import viewsets
+from rest_framework.authentication import TokenAuthentication
 from .serializer import WorkoutSerializer
 from .models import workout
-# from rest_framework.authentication import TokenAutenthication
+
 
 # Create your views here.
 
 
-class WorkoutViewSet(viewsets.ModelViewSet, id):
+class WorkoutViewSet(viewsets.ModelViewSet):
     serializer_class = WorkoutSerializer
-    queryset = workout.objects.all().filter(user_id=id)
+    workouts = workout.objects.all()
+    authentication_classes = (TokenAuthentication,)
+
+    def get_queryset(self):
+        workouts = self.workouts
+        userWorkouts = workouts.filter(user=self.request.user)
+        return userWorkouts

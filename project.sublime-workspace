@@ -4,6 +4,58 @@
 		"selected_items":
 		[
 			[
+				"pri",
+				"primary_key"
+			],
+			[
+				"rqu",
+				"request"
+			],
+			[
+				"validated",
+				"validated_data\t⟠"
+			],
+			[
+				"User",
+				"UserViewset\ttype ⟠"
+			],
+			[
+				"ex",
+				"except\tkeyword ⟠"
+			],
+			[
+				"work",
+				"workoutEffort\tIntegerField | int ⟠"
+			],
+			[
+				"Ex",
+				"ExerciseSerializer\ttype ⟠"
+			],
+			[
+				"int",
+				"intEffort\tint ⟠"
+			],
+			[
+				"exe",
+				"exercise\ttype ⟠"
+			],
+			[
+				"exc",
+				"ExerciseViewset\ttype ⟠"
+			],
+			[
+				"rest",
+				"rest_framework_jwt\tmodule ⟠"
+			],
+			[
+				"router",
+				"routers\t⟠"
+			],
+			[
+				"seria",
+				"serializers\tmodule ⟠"
+			],
+			[
 				"m",
 				"max_length"
 			],
@@ -463,16 +515,7 @@
 			"file": "src/log/settings.py",
 			"settings":
 			{
-				"buffer_size": 3078,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "src/workout/urls.py",
-			"settings":
-			{
-				"buffer_size": 113,
+				"buffer_size": 3100,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -481,16 +524,35 @@
 			"file": "src/workout/views.py",
 			"settings":
 			{
-				"buffer_size": 169,
+				"buffer_size": 483,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "/C/Users/Gerardo/Personal/Projects/Python/SARS-COV-OBS-MX-03/src/pacientes/apps.py",
+			"file": "src/workout/urls.py",
 			"settings":
 			{
-				"buffer_size": 93,
+				"buffer_size": 264,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/workout/models.py",
+			"settings":
+			{
+				"buffer_size": 1401,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/workout/serializer.py",
+			"settings":
+			{
+				"buffer_size": 468,
+				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		}
@@ -580,13 +642,27 @@
 		"/C/Users/Gerardo/Personal/Projects/Python/Workout Log",
 		"/C/Users/Gerardo/Personal/Projects/Python/Workout Log/src",
 		"/C/Users/Gerardo/Personal/Projects/Python/Workout Log/src/log",
-		"/C/Users/Gerardo/Personal/Projects/Python/Workout Log/src/workout"
+		"/C/Users/Gerardo/Personal/Projects/Python/Workout Log/src/workout",
+		"/C/Users/Gerardo/Personal/Projects/Python/Workout Log/src/workout/migrations"
 	],
 	"file_history":
 	[
+		"/C/Users/Gerardo/Personal/Projects/Python/SARS-COV-OBS-MX-03/src/pacientes/views.py",
+		"/C/Users/Gerardo/Personal/Projects/Python/Workout Log/src/workout/admin.py",
+		"/C/Users/Gerardo/Personal/Projects/_Courses/JavaScript/React & Django Full Stack web app, backend API, mobile apps/first-app/src/App.js",
+		"/C/Users/Gerardo/Personal/Projects/_Courses/JavaScript/React & Django Full Stack web app, backend API, mobile apps/first-app/src/components/header.js",
+		"/C/Users/Gerardo/Personal/Projects/_Courses/JavaScript/React & Django Full Stack web app, backend API, mobile apps/first-app/src/components/footer.js",
+		"/C/Users/Gerardo/Personal/Projects/_Courses/JavaScript/React & Django Full Stack web app, backend API, mobile apps/first-app/src/components/hooks.js",
+		"/C/Users/Gerardo/Personal/Projects/Python/SARS-COV-OBS-MX-03/src/pacientes/static/styles.css",
+		"/C/Users/Gerardo/Personal/Projects/Python/Workout Log/src/log/settings.py",
+		"/C/Users/Gerardo/Personal/Projects/Python/Workout Log/ToDo.txt",
+		"/C/Users/Gerardo/Personal/Projects/Python/Workout Log/src/workout/urls.py",
+		"/C/Users/Gerardo/Personal/Projects/Python/Workout Log/src/workout/views.py",
+		"/C/Users/Gerardo/Personal/Projects/Python/Workout Log/src/workout/serializers.py",
+		"/C/Users/Gerardo/Personal/Projects/Python/Workout Log/src/workout/models.py",
+		"/C/Users/Gerardo/Personal/Projects/Python/SARS-COV-OBS-MX-03/src/pacientes/apps.py",
 		"/C/Users/Gerardo/Personal/Projects/Python/Workout Log/workout/admin.py",
 		"/C/Users/Gerardo/Personal/Projects/Python/Workout Log/workout/models.py",
-		"/C/Users/Gerardo/Personal/Projects/Python/SARS-COV-OBS-MX-03/src/pacientes/views.py",
 		"/C/Users/Gerardo/Personal/Projects/Python/SARS-COV-OBS-MX-03/src/survey/__init__.py",
 		"/C/Users/Gerardo/Personal/Projects/Python/SARS-COV-OBS-MX-03/src/pacientes/__init__.py",
 		"/C/Users/Gerardo/Personal/Projects/Python/SARS-COV-OBS-MX-03/src/pacientes/models.py",
@@ -595,7 +671,6 @@
 		"/C/Users/Gerardo/Personal/Projects/Python/SARS-COV-OBS-MX-03/src/pacientes/admin.py",
 		"/C/Users/Gerardo/Personal/Projects/Python/Workout Log/src/log/urls.py",
 		"/C/Users/Gerardo/Downloads/CSS/assignment-1 2/history.html",
-		"/C/Users/Gerardo/Personal/Projects/Python/Workout Log/src/log/settings.py",
 		"/C/Users/Gerardo/Downloads/CSS/assignment-1 2/index.html",
 		"/C/Users/Gerardo/Downloads/CSS/assignment-1 2/css/hw1.css",
 		"/C/Users/Gerardo/Downloads/CSS/assignment-1 2/teams.html",
@@ -603,7 +678,6 @@
 		"/C/Users/Gerardo/Downloads/CSS/JS/shippingBilling.js",
 		"/C/Users/Gerardo/Downloads/CSS/assignment-1 2/css/hw2.css",
 		"/C/Users/Gerardo/Personal/Projects/Python/SARS-COV-OBS-MX-03/src/pacientes/static/main.js",
-		"/C/Users/Gerardo/Personal/Projects/Python/SARS-COV-OBS-MX-03/src/pacientes/static/styles.css",
 		"/C/Users/Gerardo/Personal/Projects/Python/SARS-COV-OBS-MX-03/src/pacientes/templates/questionnaire.html",
 		"/C/Users/Gerardo/Personal/Projects/Python/SARS-COV-OBS-MX-03/src/pacientes/templates/index.html",
 		"/C/Users/Gerardo/Personal/Projects/Python/SARS-COV-OBS-MX-03/src/pacientes/templates/pacienteList.html",
@@ -700,18 +774,7 @@
 		"/C/Users/Gerardo/Personal/Projects/_Courses/Python/Full stack web development and AI with Python (Django)/Django site/src/static/stylesheet.css",
 		"/C/Users/Gerardo/Personal/Projects/_Courses/Python/Full stack web development and AI with Python (Django)/Django site/src/website/settings.py",
 		"/C/Users/Gerardo/Personal/Projects/_Courses/Python/Full stack web development and AI with Python (Django)/Django site/src/static/reset.css",
-		"/C/Users/Gerardo/Personal/Cursos/_Notes/CSSREset.css",
-		"/C/Users/Gerardo/Personal/Projects/_Courses/Python/Full stack web development and AI with Python (Django)/Django site/src/Pages",
-		"/C/Users/Gerardo/Personal/Projects/_Courses/Python/Full stack web development and AI with Python (Django)/CRF/src/crf/urls.py",
-		"/C/Users/Gerardo/Personal/Projects/_Courses/Python/Full stack web development and AI with Python (Django)/CRF/src/templates/index.html",
-		"/C/Users/Gerardo/Personal/Projects/_Courses/Python/Full stack web development and AI with Python (Django)/CRF/src/views/views.py",
-		"/C/Users/Gerardo/Personal/Projects/_Courses/Python/Full stack web development and AI with Python (Django)/CRF/src/crf/settings.py",
-		"/C/Users/Gerardo/Personal/Projects/_Courses/Python/Full stack web development and AI with Python (Django)/BootstrapTemplate.html",
-		"/C/Users/Gerardo/Personal/Projects/_Courses/Python/Full stack web development and AI with Python (Django)/CRF/src/views",
-		"/C/Users/Gerardo/Personal/Projects/_Courses/Python/Full stack web development and AI with Python (Django)/CRF/src/crf/views.py",
-		"/C/Users/Gerardo/Personal/Cursos/_Notes/Django.txt",
-		"/C/Users/Gerardo/Personal/Cursos/_Notes/Git.txt",
-		"/C/Users/Gerardo/Personal/Projects/_Courses/Python/Full stack web development and AI with Python (Django)/CRF/src/manage.py"
+		"/C/Users/Gerardo/Personal/Cursos/_Notes/CSSREset.css"
 	],
 	"find":
 	{
@@ -729,6 +792,19 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"personalRecord",
+			"res",
+			"rest",
+			"exercise",
+			"exer",
+			"request.data['effort']",
+			"response",
+			"PRSerializer",
+			"personalRecord",
+			"PRSerializer",
+			"personalRecord",
+			"router.register('exercise', ExerciseViewset)\n",
+			"class",
 			"os",
 			"border",
 			"2em",
@@ -751,7 +827,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -760,15 +836,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3078,
+						"buffer_size": 3100,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								303,
-								303
+								726,
+								726
 							]
 						],
 						"settings":
@@ -778,55 +854,27 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 13.0,
+						"translation.y": 168.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "src/workout/urls.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 113,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								35,
-								35
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
 					"file": "src/workout/views.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 169,
+						"buffer_size": 483,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								101,
-								101
+								482,
+								482
 							]
 						],
 						"settings":
@@ -841,20 +889,20 @@
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "/C/Users/Gerardo/Personal/Projects/Python/SARS-COV-OBS-MX-03/src/pacientes/apps.py",
+					"buffer": 2,
+					"file": "src/workout/urls.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 93,
+						"buffer_size": 264,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								93,
-								36
+								264,
+								264
 							]
 						],
 						"settings":
@@ -865,7 +913,66 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "src/workout/models.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1401,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								456,
+								460
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "src/workout/serializer.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 468,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								48,
+								48
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
