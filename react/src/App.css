@@ -1,38 +1,79 @@
-.App {
-  text-align: center;
+:root{
+  --background: rgba(255,255,165, 1);
+  --green: rgba(174,209,67, 1);
+  --yellow: rgba(251,210,73, 1);
+  --orange: rgba(244,159,63, 1);
+  --pink: rgba(211,85,149, 1);
+  --blue: rgba(81,188,179, 1);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background-color: var(--background);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+input{
+  border: none;
+  background-color: transparent;
 }
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  /* min-height: 100vh; */
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  text-align: center;
+
+}
+.post-it-color0{
+  background-color: var(--green);
+}
+.post-it-color1{
+  background-color: var(--yellow);
+}
+.post-it-color2{
+  background-color: var(--orange);
+}
+.post-it-color3{
+  background-color: var(--pink);
+}
+.post-it-color4{
+  background-color: var(--blue);
 }
 
-.App-link {
-  color: #61dafb;
+.post-it{
+  line-height: 1;
+  text-align:center;
+  /* Config to make perfect square */
+  width: 100%; 
+  height: 0;
+  padding: 1em 1em 95% 1em;
+  /* perfect square end */
+  margin: 1.5em;
+  border-bottom-right-radius: 4em 0.5em;
+  display:inline-block;
+}
+.post-it:after {     
+  content: "";
+ position:absolute;
+ z-index:-1;
+ right: 0; 
+ bottom: 1.3em;
+ width: 15em;
+ height: 2em;
+ background: rgba(0, 0, 0, 0.2);
+ box-shadow: .12em 1em 0.3em rgba(0, 0, 0, 0.40);
+-moz-transform: matrix(-1, -0.1, 0, 1, 0, 0);
+-webkit-transform: matrix(-1, -0.1, 0, 1, 0, 0);
+     -o-transform: matrix(-1, -0.1, 0, 1, 0, 0);
+    -ms-transform: matrix(-1, -0.1, 0, 1, 0, 0);
+        transform: matrix(-1, -0.1, 0, 1, 0, 0);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.effortIcon{
+  color: #00000011;
+  scale: 1.5;
 }
