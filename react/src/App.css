@@ -76,4 +76,31 @@ input{
 .effortIcon{
   color: #00000011;
   scale: 1.5;
+  cursor: pointer;
+}
+.effortIcon:hover{
+  color: #000000c2;
+}
+.effort{
+  color: #000000c2;
+}
+
+.inputSet-Reps{
+  width: 2em;
+  margin:0;
+  text-align: center;
+  display:inline;
+}
+.inputExercise{
+  width: 5em;
+  margin:0;
+  text-align: center;
+  display:inline;
+}
+.exerciseDiv{
+  align-items: baseline;
+}
+
+.fa-star {
+  scale: 1.5;
 }

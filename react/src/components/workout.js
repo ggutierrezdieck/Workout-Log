@@ -1,7 +1,7 @@
+//Class component
+
 import React, { Component } from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-// import {fab } from '@fortawesome/free-solid-svg-icons'
-import { faMeh, faSadCry, faSadTear, faSurprise, faSmileBeam  } from '@fortawesome/free-solid-svg-icons'
+import {Effort} from './effort'
 
 class Workout extends Component{
     constructor(props){
@@ -25,64 +25,67 @@ class Workout extends Component{
         .then( data => { 
             this.setState({ workouts: data }); 
             console.log("Data fetched")
-            console.log(this.state.workouts); } 
+                } 
             )  //saving data into state
         .catch(error => console.log(error));
         // console.log(this.state.workouts);  // This line logs empty because it is run before fetch completes
     }
 
+    saveChanges = e => {
+        // console.log(e.target.name);
+        // console.log(e.target.value);
+        this.setState( prevState => {
+            const workouts = prevState.workouts.map((item, j ) => {
+                if (j == e.target.id) {
+                    console.log(e.target.id)
+                    return 0 //{[e.target.name]:e.taget.value};
+                }
+                else {
+                    return item;
+                }
+          });
+        return {
+            workouts,
+        };
+        });
+    }
+
     render(){
         return (
+       
             <React.Fragment>
                 <div className='container'>
                     <div className='row'>
-                        { this.state.workouts.map(( wk => 
-                            <div id={wk.id} className='col-3 '>
-                                <div className='col-12 post-it post-it-color0'>
-                                    <h2>Workout </h2>
-                                    for
-                                    <input id='wkdate' default='9999-12-12' type='date'></input>
-                                    <input type='text' onChange= {this.fetchData}></input>
-                                    <input type='text'></input>
-                                    <input type='text'></input>
-                                    <h3>Effort</h3>
+                        <div className='col-3 '>
+                                <div className="col-12 post-it post-it-color0">
+                                    <h2>Workout</h2>
+                                    <input id='wkdate' name='workoutDate' value='9999-12-12' type='date' onChange={this.saveChanges}></input>
+                                    <input type='text' value='hi' onChange={this.saveChanges}></input>
+                                    <h3>Workout effort</h3>
                                     <div className='row justify-content-center'>
-                                        {/* <div className='col'></div> */}
-                                        <div className='col-2 effortIcon'><FontAwesomeIcon icon={faSadCry }/></div>
-                                        <div className='col-2 effortIcon'><FontAwesomeIcon icon={faSadTear }/></div>
-                                        <div className='col-2 effortIcon'><FontAwesomeIcon icon={faMeh }/></div>
-                                        <div className='col-2 effortIcon'><FontAwesomeIcon icon={faSurprise }/></div>
-                                        <div className='col-2 effortIcon'><FontAwesomeIcon icon={faSmileBeam }/></div>
-                                        {/* <div className='col'></div> */}
+                                        <Effort effort='0'></Effort>
                                     </div>
                                 </div>
                             </div>
-                         ))}
-                        <div className='col-3'>
-                            <div className='col-12 post-it post-it-color1'>
-                                <p>Hello</p>
+                        { this.state.workouts.map(( wk => 
+                            <div id={wk.id} className='col-3 '>
+                                <div className={"col-12 post-it post-it-color" + wk.id % 5 }>
+                                    <h2>Workout</h2>
+                                    <input id={wk.id} name='workoutDate' value={wk.workoutDate} type='date' onChange={this.saveChanges}></input>
+                                    {wk.exercises.map(ex => 
+                                        <div>
+                                            <div className='row exerciseDiv'>
+                                                <input id={ex.id} className='inputExercise' type='text' value= {ex.exerciseName} onChange={this.saveChanges}></input>
+                                                <label>Reps</label><input id={ex.id} className='inputSet-Reps' type='text' value= {ex.reps} onChange={this.saveChanges}></input>
+                                                <label>Sets</label><input id={ex.id} className='inputSet-Reps' type='text' value= {ex.sets} onChange={this.saveChanges}></input>
+                                            </div>
+                                        </div>
+                                        )}
+                                    <h3> Workout effort</h3>
+                                    <Effort></Effort>
+                                </div>
                             </div>
-                        </div>
-                        <div className='col-3'>
-                            <div className='col-12 post-it post-it-color2'>
-                                <p>Hello</p>
-                            </div>
-                        </div>
-                        <div className='col-3'>
-                            <div className='col-12 post-it post-it-color3'>
-                                    <p>Hello</p>
-                            </div>
-                        </div>
-                        <div className='col-3'>
-                            <div className='col-12 post-it post-it-color4'>
-                                    <p>Hello</p>
-                            </div>
-                        </div>
-                        <div className='col-3'>
-                            <div className='col-12 post-it post-it-color0'>
-                                    <p>Hello</p>
-                            </div>
-                        </div>
+                             ))}
                     </div>
                 </div>
             </React.Fragment>
