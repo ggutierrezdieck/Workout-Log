@@ -29,8 +29,11 @@ class WorkoutViewSet(viewsets.ModelViewSet):
                 wk = workout.objects.get(id=pk)
                 if 'date' in request.data:
                     wk.workoutDate = request.data['date']
-                if 'effort' in request.data:
+                
+                elif 'effort' in request.data:
                     wk.effort = request.data['effort']
+                else:
+                    raise Exception
                 wk.save()
                 msg = 'Object ' + str(wk.id) + ' updated'
             except Exception as e:
@@ -42,5 +45,5 @@ class WorkoutViewSet(viewsets.ModelViewSet):
             print(e)
             msg = 'Please provide effort, date to update workout. Error ' + str(e)
             resp = status.HTTP_400_BAD_REQUEST
-        response = {'message': msg}
+        response = {'message': msg,}
         return Response(response, status=resp)

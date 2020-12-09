@@ -92,13 +92,17 @@ input{
   display:inline;
 }
 .inputExercise{
-  width: 5em;
-  margin:0;
-  text-align: center;
-  display:inline;
+  width: 5.8em;
+  margin: 0;
+  text-align: left;
+  display: inline;
+  padding: 0 0 0 0.5em;
 }
 .exerciseDiv{
   align-items: baseline;
+}
+.exerciseDiv label{
+  margin: 0 0 0 .2em;
 }
 
 .fa-star {

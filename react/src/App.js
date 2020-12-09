@@ -1,5 +1,5 @@
 import './App.css';
-import Workout from './components/workout'
+import Postit from './components/postit'
 
 function App() {
   return (
@@ -7,8 +7,8 @@ function App() {
       <header className="App-header">
         <h1>Workout Log</h1>
       </header>
-      <Workout>
-      </Workout>
+      <Postit>
+      </Postit>
 
      
     </div>

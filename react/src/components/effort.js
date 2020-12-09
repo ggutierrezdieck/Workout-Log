@@ -6,17 +6,34 @@ import { faMeh, faSadCry, faSadTear, faSurprise, faSmileBeam  } from '@fortaweso
 import { faStar } from '@fortawesome/free-solid-svg-icons'
 
 function Effort(props){
-    let effort = props.effort;
     const icons = [ faSadCry , faSadTear,  faMeh, faSurprise, faSmileBeam];
+    let effort = props.effort;
+    let workout = props.workout;
     
     // Using stars for effort
-    const [effortStar, setEffortStar] = useState(-1) // creating a state for this functional component
+    const [effortStar, setEffortStar] = useState(effort) // creating a state for this functional component
 
     const highlight = h => event => {
         setEffortStar(h)
     }
-    const starClicked = n => event => {
-        fetch("http://127.0.0.1:8000/workouts/", {
+
+    const effortClicked = n => event => {
+        fetch(`http://127.0.0.1:8000/workouts/${workout}/updateWorkout/`, {
+            method: 'POST',
+            headers: {
+                    'Content-Type': 'application/json',
+                    'Authorization': 'Token 34df1068b220105e40451b251e02040a2467e3e8',
+            },
+            body : JSON.stringify({effort : n + 1})
+        })
+        // TODO: better will be to use the return message from post method to get the update data
+        .then(() => getDetails()) //Calling getDetails function after updating the data
+        .catch(error => console.log(error));
+    }
+
+    const getDetails = () => {
+        console.log('Fetching data after updating effort')
+        fetch(`http://127.0.0.1:8000/workouts/${workout}`, {
             method: 'GET',
             headers: {
                     'Content-Type': 'application/json',
@@ -24,14 +41,11 @@ function Effort(props){
             }
         })
         .then( res => res.json())
-        .then( data => { 
-            this.setState({ workouts: data }); 
-            console.log("Data fetched")
-                } 
-            )  //saving data into state
+        .then( data => {
+            props.updateEffort(data);
+        })  //Creating props after fetching data to pass to parent
         .catch(error => console.log(error));
     }
-
 
     return(
         
@@ -44,7 +58,7 @@ function Effort(props){
                 return (
                         // <div id={i}>
                             <FontAwesomeIcon id={i} icon={faStar }  className={ effortStar > i ? 'col-2 effortIcon effort' :  'col-2 effortIcon'}
-                            onMouseEnter={highlight(i)} onMouseLeave={highlight(-1)} onClick={starClicked(i)}/>
+                            onMouseEnter={highlight(i)} onMouseLeave={highlight(effort)} onClick={effortClicked(i)}/>
                         // </div>
                             )
             })
