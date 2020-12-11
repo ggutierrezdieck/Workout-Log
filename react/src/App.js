@@ -1,14 +1,12 @@
 import './App.css';
 import Postit from './components/postit'
+import {Header} from './components/header'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>Workout Log</h1>
-      </header>
-      <Postit>
-      </Postit>
+      <Header></Header>
+      <Postit></Postit>
 
      
     </div>

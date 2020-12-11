@@ -3,12 +3,26 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import {Route, BrowserRouter} from 'react-router-dom';
+import Auth from './components/auth'
+import { CookiesProvider} from 'react-cookie'
+
+function Router(){
+
+  return(
+  <React.StrictMode>
+    <CookiesProvider> {/*Provides the Token cookie to all elements inside the component*/}
+      <BrowserRouter>
+      <Route exact path='/' component={Auth}/>
+      <Route exact path='/workouts' component={App}/>
+      </BrowserRouter>
+    </CookiesProvider>
+   </React.StrictMode>
+   )
+}
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
+  <Router/>,  document.getElementById('root')
 );
 
 // If you want to start measuring performance in your app, pass a function

@@ -6,12 +6,24 @@ import {Effort} from './effort'
 // import { faTrash } from '@fortawesome/free-solid-svg-icons'
 
 function Workout(props){
-    
+    const [isEmpty, setIsEmpty] = useState(false)
     const [workouts, setWorkouts] = useState(null); // creating a state for this functional component
     
     useEffect(() => {  //Correct way to set the state to props, using Effect hook
         setWorkouts(props.workouts); 
     }, [props.workouts])
+
+    const createWorkout= workout =>{
+        let newWorkouts = []
+        if (isEmpty === true){
+            
+        }
+        else {
+        //Adding new workout to array of workouts
+            newWorkouts = [workout, ...workouts];
+        }
+        setWorkouts(newWorkouts)
+    }
 
     const loadEffort = workout =>{
         console.log('Loaing new effort');
@@ -109,14 +121,14 @@ function Workout(props){
     return (
         <React.Fragment>
             { workouts && workouts.map(( wk => 
-                        <div id={wk.id} className='col-3 '>
+                        <div key={wk.id} className='col-3 '>
                             <div className={"col-12 post-it post-it-color" + wk.id % 5 }>
                                 <h2>Workout</h2>
                                 <input id={wk.id} name='workoutDate' value={wk.workoutDate} type='date' onChange={changeDate}></input>
                                 {wk.exercises.map(ex => 
-                                    <div>
+                                    <div key={ex.id + wk.id}>
                                         <div className='row exerciseDiv'>
-                                            <input id={ex.id} wkid={wk.id} className='inputExercise' type='text' value= {ex.exerciseName} onChange={changeExercise}></input>
+                                            <input id={ex.id } wkid={wk.id} className='inputExercise' type='text' value= {ex.exerciseName} onChange={changeExercise}></input>
                                             <label>Reps</label><input id={ex.id} wkid={wk.id} className='inputSet-Reps' type='text' value= {ex.reps} onChange={changeReps}></input>
                                             <label>Sets</label><input id={ex.id} wkid={wk.id}  className='inputSet-Reps' type='text' value= {ex.sets} onChange={changeSets}></input>
                                         </div>
