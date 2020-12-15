@@ -515,16 +515,19 @@
 			"file": "src/log/settings.py",
 			"settings":
 			{
-				"buffer_size": 3100,
+				"buffer_size": 3428,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
+			"contents": "ofrom rest_framework import viewsets, status\nfrom rest_framework.authentication import TokenAuthentication\nfrom rest_framework.response import Response\nfrom rest_framework.decorators import action\nfrom django.contrib.auth.models import User\nfrom .serializer import WorkoutSerializer\nfrom .models import workout, exercise\n\n\n# Create your views here.\n\n\nclass WorkoutViewSet(viewsets.ModelViewSet):\n    serializer_class = WorkoutSerializer\n    workouts = workout.objects.all()\n    authentication_classes = (TokenAuthentication,)\n\n    def get_queryset(self):\n        workouts = self.workouts\n        userWorkouts = workouts.filter(user=self.request.user)\n        return userWorkouts\n\n    @action(detail=True, methods=['POST'])\n    def updateWorkout(self, request, pk=None):\n        # usr = request.data['user']\n        usr = User.objects.get(id=1)\n        try:\n            try:\n                wk = workout.objects.get(id=pk)\n                if 'date' in request.data:\n                    wk.workoutDate = request.data['date']\n                \n                elif 'effort' in request.data:\n                    wk.effort = request.data['effort']\n                else:\n                    raise Exception\n                wk.save()\n                msg = 'Object ' + str(wk.id) + ' updated'\n            except Exception as e:\n                print(e)\n                wk = workout.objects.create(user=usr, workoutDate=request.data['date'], effort=request.data['effort'])\n                msg = 'Object ' + str(wk.id) + ' created'\n            resp = status.HTTP_200_OK\n        except Exception as e:\n            print(e)\n            msg = 'Please provide effort, date to update workout. Error ' + str(e)\n            resp = status.HTTP_400_BAD_REQUEST\n        response = {'message': msg,}\n        return Response(response, status=resp)\n",
 			"file": "src/workout/views.py",
+			"file_size": 1873,
+			"file_write_time": 132518575961091009,
 			"settings":
 			{
-				"buffer_size": 483,
+				"buffer_size": 1825,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -533,7 +536,7 @@
 			"file": "src/workout/urls.py",
 			"settings":
 			{
-				"buffer_size": 264,
+				"buffer_size": 364,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -542,7 +545,7 @@
 			"file": "src/workout/models.py",
 			"settings":
 			{
-				"buffer_size": 1401,
+				"buffer_size": 1894,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -551,7 +554,7 @@
 			"file": "src/workout/serializer.py",
 			"settings":
 			{
-				"buffer_size": 468,
+				"buffer_size": 610,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -778,7 +781,7 @@
 	],
 	"find":
 	{
-		"height": 39.0
+		"height": 23.0
 	},
 	"find_in_files":
 	{
@@ -836,15 +839,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3100,
+						"buffer_size": 3428,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								726,
-								726
+								0,
+								0
 							]
 						],
 						"settings":
@@ -866,15 +869,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 483,
+						"buffer_size": 1825,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								482,
-								482
+								496,
+								496
 							]
 						],
 						"settings":
@@ -894,15 +897,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 264,
+						"buffer_size": 364,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								264,
-								264
+								0,
+								0
 							]
 						],
 						"settings":
@@ -922,15 +925,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1401,
+						"buffer_size": 1894,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								456,
-								460
+								0,
+								0
 							]
 						],
 						"settings":
@@ -952,15 +955,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 468,
+						"buffer_size": 610,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								48,
-								48
+								0,
+								0
 							]
 						],
 						"settings":
